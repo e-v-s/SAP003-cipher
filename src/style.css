@@ -104,6 +104,10 @@ body{
 	width: 50%;
 }
 
+.main-page-form-encode, .main-page-form-decode{
+	margin: 10%;
+}
+
 /*h3{
 	padding-top: 20px;
 }
@@ -112,6 +116,46 @@ p{
 	padding-bottom: 20px;
 }*/
 
+/*-------------MAIN - STYLNG TABS--------------*/
+
+#tab1Content{
+	display: block;
+}
+
+#tab2Content{
+	display: none;
+}
+
+.tab{
+	width: 100%;
+	height: 80px;
+	cursor: pointer;
+	font-family: font-family: 'Montserrat', sans-serif;
+	background: #2F6097;
+	color: #fff;
+}
+/*.tab:hover*/
+
+.tab-1{
+	float: left;
+	width: 50%;
+}
+.tab-1:hover{
+	background: #287A04;
+}
+
+.tab-1:focus{
+	background: white;
+}
+
+.tab-2{	
+	float: right;
+	width: 50%;
+}
+
+.tab-2:hover{
+	background: #287A04;
+}
 
 /*-------------FOOTER--------------*/
 

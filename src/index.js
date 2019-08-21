@@ -20,3 +20,12 @@ function functionDecode(){
 }
 
 
+// TESTE
+
+function selectTab(tabIndex){
+	document.getElementById('tab1Content').style.display = 'none';
+	document.getElementById('tab2Content').style.display = 'none';
+
+	document.getElementById('tab' + tabIndex + 'Content').style.display = 'block';
+}
+
