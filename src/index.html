@@ -2,14 +2,85 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>CRYPT_home</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+     
+  <header class="page-header">
+    <div class="wrapper">
+      <nav class="page-header-nav-bar">
+        <div class="page-header-logo">
+          <img src="logo.png" alt="Logo">
+        </div>
+        <ul class="nav-bar-items">
+          <li class="nav-item">
+            <a class="nav-item-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="about.html">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-item-link" href="contact.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
     </div>
+  </header>
+  
+  <main class="main-page wrapper">
+    <div class="main-page-form-encode">
+      <h2 class="title-crypt"><p>ENCRYPT</p></h2>
+      <div class="wrapper">
+        <form id="form-offset">
+          
+          <h3><label>Digite a chave de deslocamento:</label></h3>
+          <input type="number" id="number-offset" placeholder="Chave"><br><br>
+          <label>Mensagem a ser cifrada:</label><br>
+          <input type="text" id="text" placeholder="Digite aqui o texto"><br>
+          <input type="submit" id="btn-text" value="Submit" onclick="functionEncode()">
+        </form>
+    
+        <h3><label>Texto cifrado: </label></h3>
+        <p><span id="cipher-text-result"></span></p>
+      </div>
+    </div>
+
+    <div class="main-page-form-decode">
+      <h2 class="title-crypt"><p>DECRYPT</p></h2>
+      <div class="wrapper">
+        <form>
+          <h3><label> Decifre a mensagem: </label></h3>
+          <input type="text" id="text-decipher" placeholder="Digite o texto aqui"><br><br>
+          <label>Digite a chave de deslocamento: </label>
+          <input type="number" id="offset-decipher" placeholder="Digite a chave"><br>
+          <input type="submit" id="btn-text-decipher" onclick="functionDecode()">
+        </form>
+    
+        <h3><label>Texto decifrado: </label></h3>
+        <p><span id="decipher-text-result"></span></p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <div class="wrapper">
+      <p class="copy">&copy; eVs</p>
+      <ul class="page-footer-nav-bar-left">
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Contato</a></li>
+      </ul>
+      <ul class="page-footer-nav-bar-right">
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Linkedin</a></li>
+      </ul>
+    </div>
+  </footer>
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
+
   </body>
 </html>

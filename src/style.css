@@ -1,0 +1,164 @@
+/*-------------RESET CSS--------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------BASE--------------*/
+
+body{
+	width: 1366px;
+	color: #000;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+}
+.wrapper{
+	height: 100%;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/*-------------HEADER--------------*/
+
+.page-header .wrapper{
+	justify-content: space-around;
+}
+
+.page-header{
+	border: 1px solid grey;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.page-header-logo{
+	display: flex;
+	justify-content: center;
+}
+
+.nav-bar-items{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.nav-item > .nav-item-link{
+	display: flex;
+	padding: 0 30px 0 30px;
+	text-decoration: none;
+	font-family: font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #2F6097;
+}
+.nav-item > .nav-item-link:hover{
+	color: #287A04;
+}
+
+/*-------------MAIN--------------*/
+
+.main-page{
+	border: 1px solid grey;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+/*h3{
+	padding-top: 20px;
+}
+
+p{
+	padding-bottom: 20px;
+}*/
+
+
+/*-------------FOOTER--------------*/
+
+.page-footer .wrapper{
+	justify-content: space-around;
+	padding-bottom: 20px;
+}
+
+.page-footer{
+	border: 1px solid grey;
+	width: 50%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	height: 60px;
+}
+
+.copy{
+	display: flex;
+	color: #000;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+.page-footer-nav-bar-left{
+	display: flex;
+	float: left;
+	padding-top: 20px;
+}
+
+.page-footer-nav-bar-right{
+	display: flex;
+	float: right;
+	padding-top: 20px;
+}
+
+.page-footer-nav-bar-left > li{
+	padding-left: 20px;
+}
+
+.page-footer-nav-bar-right > li{
+	padding-right: 20px;
+}
+
+.page-footer-nav-bar-left a, .page-footer-nav-bar-right a{
+	text-decoration: none;
+}}
