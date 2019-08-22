@@ -164,6 +164,26 @@ body{
 	background: #B37802;
 }
 
+/*-------------MAIN - STYLING FORMS CONTACT--------------*/
+
+.contact-form{
+	font-family: Georgia, serif;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 0 50px 0 50px;
+}
+
+.contact{
+	width: 300px;
+	border: none;
+	border-bottom: 1px solid #B37802;
+}
+
+.label{
+	font-size: 14px;
+}
+
+
 
 /*-------------MAIN - STYLING TABS--------------*/
 
