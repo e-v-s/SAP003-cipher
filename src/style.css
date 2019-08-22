@@ -109,12 +109,14 @@ body{
 .main-page-form-encode, .main-page-form-decode{
 	margin-top: 5%;
 	margin-bottom: 5%;
+	font-family: Georgia, serif;
 }
 
 .chave{
 	width: 50px;
 	border: none;
 	border-bottom: 1px solid #B37802;
+	padding-right: 10px;
 }
 .chave:focus{
 	outline: none;
@@ -124,8 +126,16 @@ body{
 	padding-right: 10px;
 }
 
+.label-form-chave-decrypt{
+	padding-left: 10px;
+}
+
 .label-form-mensagem{
 	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.label-form-mensagem-decode{
 	padding-right: 10px;
 }
 
@@ -133,10 +143,25 @@ body{
 	width: 300px;
 	border: none;
 	border-bottom: 1px solid #B37802;
+	padding-right: 10px;
 }
 
 .mensagem:focus{
 	outline: none;
+}
+
+.btn-submit{
+	margin: 20px 0 20px 0;
+	padding: 10px 5px 10px 5px;
+	background: #2F6097;
+	border: none;
+	outline: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn-submit:hover{
+	background: #B37802;
 }
 
 
@@ -204,9 +229,10 @@ body{
 	display: flex;
 	color: #000;
 	float: left;
-	padding-top: 20px;
+	padding-top: 23.5px;
 	padding-right: 20px;
 	font-size: 12px;
+	color: #2F6097;
 }
 
 .page-footer-nav-bar-left{
@@ -229,6 +255,25 @@ body{
 	padding-right: 20px;
 }
 
+.page-footer-nav-bar-left > li > a{
+	color: #2F6097;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.page-footer-nav-bar-left > li > a:hover{
+	color: #B37802;
+}
+
+.fa{
+	outline: none;
+	color: #2F6097;
+}
+
+.fa:hover{
+	color: #B37802;
+}
+
 .page-footer-nav-bar-left a, .page-footer-nav-bar-right a{
 	text-decoration: none;
-}}
+}
