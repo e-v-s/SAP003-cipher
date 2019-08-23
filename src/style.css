@@ -95,6 +95,20 @@ body{
 	color: #B37802;
 }
 
+/*-------------HEADER LOGIN--------------*/
+
+.login-form{
+	border: 1px solid #B37802;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 5px;
+	padding: 5px 0 5px 0;
+}
+
+.login-label{
+	padding-left: 10px;
+}
+
 /*-------------MAIN--------------*/
 
 .main-page{
@@ -177,13 +191,19 @@ body{
 	width: 300px;
 	border: none;
 	border-bottom: 1px solid #B37802;
+	margin-left: 10px;
 }
 
 .label{
+	margin-top: 30px;
 	font-size: 14px;
+	text-align: bottom;
+	margin-left: 10px;
 }
 
-
+.btn-submit{
+	margin-left: 10px;
+}
 
 /*-------------MAIN - STYLING TABS--------------*/
 

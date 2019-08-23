@@ -28,15 +28,16 @@
   </header>
 
 	<main class="main-page wrapper">
-		<form action="submit" class="contact-form">
+		<form id="contact-form" action="https://formspree.io/evoraleite@gmail.com" method="POST">
 			<label class="label contact-label">Nome</label><br>
-			<input type="text" class="contact contact-name"><br>
+			<input type="text" name="name" class="contact contact-name"><br>
 			<label class="label contact-subject">Assunto</label><br>
-			<input type="text" class="contact contact-subject"><br>
+			<input type="text" class="contact contact-subject" name="_replyto"><br>
 			<label class="label contact-message">Mensagem</label><br>
-			<input type="text" class="contact contact-message"><br>
+      <textarea id="" cols="30" rows="10" class="contact contact-message"></textarea><br>
+			<!-- <input type="text" class="contact contact-message"><br> -->
 
-			<input type="submit" class="btn-submit">
+			<input type="submit" class="btn-submit" value="Send">
 		</form>		
 	</main>
 
