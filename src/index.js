@@ -9,7 +9,7 @@ function functionEncode() {
 
   let resultText = window.cipher.encode(offsetEncode, textEncode);
 
-  document.getElementById("cipher-text-result").innerHTML = resultText;
+  document.getElementById("cipher-text-result").innerHTML = "Mensagem cifrada: " + resultText;
 }
 //------------------------------------------------------------------------------------------------//
 function functionDecode() {
@@ -19,10 +19,12 @@ function functionDecode() {
   
   let resultText = window.cipher.decode(offsetDecode, textDecode);
 
-  document.getElementById("decipher-text-result").innerHTML = resultText;
+  document.getElementById("decipher-text-result").innerHTML = "Mensagem decifrada: " + resultText;
 }
 // TESTE
 function selectTab(tabIndex) {
+  event.preventDefault();
+
   document.getElementById("tab1Content").style.display = "none";
   document.getElementById("tab2Content").style.display = "none";
 
