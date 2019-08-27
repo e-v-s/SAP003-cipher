@@ -11,7 +11,7 @@ function encode(offset, string) {
   for (let i=0; i < string.length; i++) {
     char = string[i].charCodeAt();
 		
-    resultCharCode = ((char + offset - 32)%95)+32;
+    resultCharCode = ((char + offset - 65)%26)+65;
     resultText += String.fromCharCode(resultCharCode);
   }
   return resultText;
@@ -25,7 +25,7 @@ function decode(offset, string) {
   for (let i=0; i < string.length; i++) {
     char = string[i].charCodeAt();
 
-    resultCharCode = (((char - offset)-126)%95)+126;
+    resultCharCode = (((char - offset)-90)%26)+90;
     resultText += String.fromCharCode(resultCharCode);
   }
   return resultText;

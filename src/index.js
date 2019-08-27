@@ -22,12 +22,4 @@ function functionDecode() {
   document.getElementById("decipher-text-result").innerHTML = "Mensagem decifrada: " + resultText;
 }
 // TESTE
-function selectTab(tabIndex) {
-  event.preventDefault();
-
-  document.getElementById("tab1Content").style.display = "none";
-  document.getElementById("tab2Content").style.display = "none";
-
-  document.getElementById("tab" + tabIndex + "Content").style.display = "block";
-}
 
