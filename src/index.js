@@ -21,5 +21,3 @@ function functionDecode() {
 
   document.getElementById("decipher-text-result").innerHTML = "Mensagem decifrada: " + resultText;
 }
-// TESTE
-
