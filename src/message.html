@@ -27,51 +27,20 @@
             <a class="nav-item-link" href="contact.html">Contato</a>
           </li>
         </ul>
-      </nav>
-    
+      </nav>    
     </div>
   </header>
-  
+
   <main class="main-page wrapper">
-    <div class="main-page-form-encode">
-      <div class="wrapper">
-        <form id="form-offset">          
-          <label class="label-form-chave">Chave:</label>
-          <input type="number" id="number-offset" class="chave">
-          <label class="label-form-mensagem">Mensagem:</label>
-          <input type="text" id="text" placeholder="Digite aqui o texto" class="mensagem"><br>
-          <input class="btn-submit" type="submit" id="btn-text" value="Cifrar">
-        </form>
-    
-				<p><span id="cipher-text-result"></span></p>
-				
-				<form action="message.html">
-          <label class="label-enviar-mensagem">Enviar mensagem para: </label>
-          <input type="text" placeholder="Nome do colaborador">
-          <input type="submit" class="btn-submit" value="Enviar">
-				</form>
-      </div>
-    </div>
-
-    <div class="main-page-form-decode">
-      <div class="wrapper">
-        <form>
-          <label class="label-form-mensagem-decode">Mensagem: </label>
-          <input type="text" id="text-decipher" placeholder="Digite aqui o texto" class="mensagem">
-          <label class="label-form-chave-decrypt">Chave: </label>
-          <input type="number" id="offset-decipher" class="chave"><br>
-          <input type="submit" id="btn-text-decipher" class="btn-submit" value="Decifrar">
-        </form>
-    
-        <p><span id="decipher-text-result"></span></p>
-      </div>
-    </div>
-
+    <h2 class="login-title">Mensagem enviada com sucesso.</h2>
+    <form action="cipher.html" class="return">
+      <input type="submit" value="Retornar" class="btn-submit">
+    </form>
     <form action="index.html" class="logout">
-      <input type="submit" value="Logout" class="btn-submit">
-  </form>
+        <input type="submit" value="Logout" class="btn-submit">
+    </form>
   </main>
-
+  
   <footer class="page-footer">
     <div class="wrapper">
       <p class="copy">&copy; eVs</p>

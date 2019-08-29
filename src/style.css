@@ -187,6 +187,12 @@ body{
 	background: #B37802;
 }
 
+/*-------------MAIN - STYLING MESSAGE SENT PAGE--------------*/
+
+.return, .logout{
+	display: inline;
+}
+
 /*-------------MAIN - STYLING ABOUT PAGE--------------*/
 
 .about{
