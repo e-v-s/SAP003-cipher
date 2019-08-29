@@ -1,10 +1,10 @@
 # Crypt
 
-1. [Introdução](1. Introdução)
-2. [Ideia do produto]
-3. [Como funciona]
+* [1. Introdução](#1. Introdução)
+* [2. Ideia do produto]
+* [3. Como funciona]
 
-1. Introdução
+## 1. Introdução
 
 Primeiro projeto do bootcamp de Front-end dev da Laboratoria teve como objetivo usar JavaScript (ES6), HTML-5 e CSS-3 para fazer uma Cifra de César, mas não só. Também foi necessário o desenvolvimento de um produto ao redor da ideia da cifra.
 
