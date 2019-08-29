@@ -1,8 +1,8 @@
 # Crypt
 
 * [1. Introdução](#1-introdução)
-* [2. Ideia do produto]
-* [3. Como funciona]
+* [2. Ideia do produto](#2-ideia-do-produto)
+* [3. Como funciona](#3-como-funciona)
 
 ***
 
@@ -12,13 +12,13 @@ Primeiro projeto do bootcamp de Front-end dev da Laboratoria teve como objetivo 
 
 A [Cifra de César](https://pt.wikipedia.org/wiki/Cifra_de_C%C3%A9sar) é uma técnica de criptografia por substituição, onde um caractere é substituído por outro utilizando uma chave de deslocamento. esta chave indica quantas em quantas este caractere deve ser trocado.
 
-#2-Ideia do produto
+## 2. Ideia do produto
 
 O resultado deste projeto foi o **Crypt**, um gerador de mensagens criptografadas para comunicação interna de empresas. Utilizando uma página de login, o usuário acessa sua conta e pode enviar uma mensagem criptografada para algum usuário da empresa, que receberá esta mensagem e poderá fazer a ação inversa. O usuário deve escolher uma chave de criptografia e escrever o texto nos campos correspondentes.
 
 O site possui página Sobre e Contato, onde respectivamente o usuário pode ler um pouco sobre o projeto ou enviar alguma mensagem para a desenvolvedora com alguma sugestão, reclamação ou elogio.
 
-#3-Como funciona
+## 3. Como funciona
 
 A página de login é meramente ilustrativa, onde o botão *Login* redireciona para a página da cifra. 
 
